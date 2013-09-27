@@ -2,7 +2,21 @@
 
 main-blue = #1694d5
 
+html,body,.container
+  height 100%
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif
+    
 body
   background #EEE;
 
 @import "views/header"
+@import "views/footer"
+
+.container
+  margin-top 105px
+
+.container > section
+  background #666
+  border-bottom 10px solid #333
+  width 100%
+  height 100%
