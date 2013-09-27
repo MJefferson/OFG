@@ -5,4 +5,4 @@ class OFG.WorkView extends Backbone.View
   initialize: ->
     super
   clickHandler: ->
-    window.alert "Hiiii"
+    $('body').append (new OFG.VideoProfile).el
