@@ -1,3 +1,3 @@
 window.OFG =
   init: ->
-    console.log "app is loaded"
+    console.log "Loaded."
