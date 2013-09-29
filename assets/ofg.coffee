@@ -5,8 +5,6 @@
 #= require app_bootstrap
 #= require_tree views
 
-window.$ = jQuery
-
 $(document).ready(->
   OFG.init()
   new OFG.WorkView el: $('#thumbnail-grid')
