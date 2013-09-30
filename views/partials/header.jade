@@ -1,14 +1,11 @@
 header#navbar.navbar-fixed-top
   h1 Oracle Film Group
-  nav
-    a#work Work
-    a#about About
-    a#contact Contact
-  ul.social-links
-    li
-      a(alt="Facebook link")
-        img(src="images/social/fb.png")
-      a(alt="Twitter link")
-        img(src="images/social/twi.png")
-      a(alt="Vimeo link")
-        img(src="images/social/vim.png")
+  .grid
+    nav.grid-cell
+      a#work Work
+      a#about About
+      a#contact Contact
+    .social-links.grid-cell
+      a.facebook(alt="Facebook link")
+      a.twitter(alt="Twitter link")
+      a.vimeo(alt="Vimeo link")
