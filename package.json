@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "postinstall": "brunch build --optimize"
+    "postinstall": "brunch build -P"
   },
   "dependencies": {
     "express": "3.3.4",
