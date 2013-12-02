@@ -1,3 +1,48 @@
 footer
-  background #EEE
-  height 50px
+  position relative
+  box-sizing border-box
+  background #FFF url(images/bg/swoosh_03.png) 40px 0px no-repeat
+  height 220px
+  padding-top 10px
+  @clearfix()
+  color #6f6f6f
+
+  ul#locations, ul#people
+    position absolute
+    display inline-block
+    float left
+
+  #locations
+    left 20px
+    li
+      @clearfix()
+    div
+      display inline-block
+    .location
+      box-sizing border-box
+      float left
+      width 120px
+      padding-right 10px
+      border-right 1px solid black
+      font-weight bold
+      text-align right
+    .phone
+      float left
+      padding-left 10px
+    li.email
+      text-align center
+
+  #people
+    left 400px
+    @clearfix()
+    li
+      display inline-block
+      float left
+      padding 0px 10px
+      border-left 2px solid black
+    li.label
+      border-left 0
+      font-weight bold
+    .name
+      font-weight bold
+      
