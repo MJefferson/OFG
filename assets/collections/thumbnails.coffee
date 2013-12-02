@@ -9,18 +9,18 @@ window.thumbnails = [
     img: "lowe"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Black"
+    title: "Entertainment Network"
     img: "BET"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Rock and Roll"
+    title: "Hall of Fame"
     img: "RRHOF"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Rock and Roll"
+    title: "Hall of Fame"
     img: "RRHOF2"
   }
   {
@@ -44,8 +44,8 @@ window.thumbnails = [
     img: "bozeman"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Dead"
+    title: "Sea Scrolls"
     img: "deadseascrolls"
   }
   {
@@ -64,13 +64,13 @@ window.thumbnails = [
     img: "finalengagement"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "The Grinch"
+    title: "Musical"
     img: "grinch"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Guys"
+    title: "and Dolls"
     img: "guysanddolls"
   }
   {
@@ -79,18 +79,18 @@ window.thumbnails = [
     img: "iceclimb"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Jurassic"
+    title: "Attack"
     img: "jurassic"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Miranda"
+    title: "Kerr"
     img: "kerr"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Rock and Roll"
+    title: "Hall of Fame"
     img: "lennon"
   }
   {
@@ -99,8 +99,8 @@ window.thumbnails = [
     img: "meru"
   }
   {
-    boldTitle: "Project"
-    title: "Name"
+    boldTitle: "Led"
+    title: "Zeppelin"
     img: "zep"
   }
   ]
