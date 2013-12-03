@@ -4,6 +4,7 @@
 #= require vendor/backbone
 #= require vendor/bootstrap.min
 #= require vendor/modernizr.min
+#= require vendor/video
 #= require app_bootstrap
 #= require_tree views
 #= require_tree collections
