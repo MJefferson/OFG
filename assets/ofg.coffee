@@ -2,6 +2,8 @@
 #= require vendor/json2
 #= require vendor/underscore-min
 #= require vendor/backbone
+#= require vendor/bootstrap.min
+#= require vendor/modernizr.min
 #= require app_bootstrap
 #= require_tree views
 #= require_tree collections
