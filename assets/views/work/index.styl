@@ -1,21 +1,32 @@
 #thumbnail-grid
-  max-width 550px
+  thumbnailWidth = 165
+  thumbnailMargin = 10
+  gridWidth = thumbnailWidth * 3 + thumbnailMargin * 6
+
+  max-width gridWidth px
   max-height 100%
   overflow auto
 
   li
     display inline-block
-    margin 10px
+    margin thumbnailMargin px
+    width thumbnailWidth px
     img
       display block
+      width 100%
+      height auto
     label
       display block
+      max-width 160px
       background-color #1694d5
       background url(images/bg/content_bg.png) repeat-y #1694d5
       background-size cover
       text-align right
       font-size 12px
+      text-overflow ellipsis
+      overflow hidden
       padding 8px
+      padding-left 0
       color white
       border-bottom-left-radius 5px
       border-bottom-right-radius 5px

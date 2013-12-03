@@ -9,8 +9,8 @@ window.thumbnails = [
     img: "lowe"
   }
   {
-    boldTitle: "Black"
-    title: "Entertainment Network"
+    boldTitle: "BET"
+    title: ""
     img: "BET"
   }
   {
