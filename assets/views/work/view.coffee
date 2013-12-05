@@ -5,7 +5,9 @@ class OFG.WorkView extends Backbone.View
     @createThumbnails()
     super
   clickHandler: (e)->
-    project = e.currentTarget
+    scrollTo(0,0) # scroll back to the top of the page
+    $('.container section, footer').addClass "hidden" # hide everything but the header
+    project = e.currentTarget # select the thumbnail clicked by the user
     $('body').append (new OFG.VideoProfile({project})).el
   createThumbnails: ->
     @collection.each @appendThumbnail

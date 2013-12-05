@@ -10,4 +10,5 @@ class OFG.VideoProfile extends Backbone.View
   template: (data)->
     $("#videoProfileTemplate").first().html()
   removeView: =>
+    $(".container section, footer").removeClass "hidden"
     @remove()
